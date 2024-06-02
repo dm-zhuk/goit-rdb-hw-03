@@ -1,29 +1,30 @@
-# goit-rdb-hw-02 Relationship Databases Topic III
+#goit-rdb-hw-03 Relationship Databases Topic III
 
 1. Ця команда SQL дозволяє:
 
-1.1 вибрати всі стовпчики (За допомогою wildcard “\*”) з таблиці products;
+1.1 вибрати всі стовпчики (За допомогою wildcard \*) з таблиці products:
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-01.1.png)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-01.1.jpeg)
 
-1.2 вибрати тільки стовпчики name, phone з таблиці shippers.
+1.2 вибрати тільки стовпчики name, phone з таблиці shippers:
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-01.2.png)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-01.2.jpeg)
 
-2. Ця команда SQL дозволяє знайти середнє, максимальне та мінімальне значення стовпчика price таблички products.
+2. Ця команда SQL дозволяє знайти середнє, максимальне та мінімальне значення стовпчика price таблички products:
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-02.png)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-02.jpeg)
 
-3. Ця команда SQL дозволяє обрати унікальні значення колонок category_id та price таблиці products.
-   Оберіть порядок виведення на екран за спаданням значення price та виберіть тільки 10 рядків.
+3. Ця команда SQL дозволяє обрати унікальні значення колонок category_id та price таблиці products,
+   та порядок виведення на екран за спаданням значення price, тільки 10 рядків:
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-03.png)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-03.jpeg)
 
-4. Ця команда SQL дозволяє знайти кількість продуктів (рядків), які знаходиться в цінових межах від 20 до 100.
+4. Ця команда SQL дозволяє знайти кількість продуктів (рядків), які знаходиться в цінових межах від 20 до 100:
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-04.png)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-04.jpeg)
 
-5. Ця команда SQL дозволяє знайти кількість продуктів (рядків) та середню ціну (price) у кожного постачальника (supplier_id).
+5. Ця команда SQL дозволяє знайти кількість продуктів (рядків) та середню ціну (price) у кожного постачальника (supplier_id):
 
-![1NF_screenshot](./assets/Screenshot rdb-hw-03-test-05.png)
-![1NF_screenshot](./index.html)
+![Screenshot](./assets/Screenshot rdb-hw-03-test-05.jpeg)
+
+![Total](./index.html)
