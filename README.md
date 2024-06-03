@@ -29,4 +29,40 @@
 
 6. # This is the contents of the sql_code
 
-[!include[sql_code.txt](sql_code.txt)]
+`#1.1
+SELECT \* FROM mydb.products;
+
+#1.2
+SELECT name, phone
+FROM mydb.shippers;
+
+#2
+SELECT
+AVG(price) AS avg_price,
+MAX(price) AS max_price,
+MIN(price) AS min_price
+FROM
+products;
+
+#3
+SELECT DISTINCT category_id AS unique_cat_id, price
+FROM products
+ORDER BY price DESC
+LIMIT 10;
+
+#4
+SELECT
+COUNT(\*) AS count_products
+FROM
+products
+WHERE
+price BETWEEN 20 AND 100;
+
+#5
+SELECT
+supplier_id,
+COUNT(name) AS products_by_supplier,
+AVG(price) AS avg_price
+FROM
+products
+GROUP BY supplier_id;`
