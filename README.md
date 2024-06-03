@@ -27,4 +27,7 @@
 
 ![Screenshot](./assets/Screenshot%20rdb-hw-03-test-05.jpeg)
 
-![Total](./assets/sql_code.txt)
+6. # This is the contents of the sql_code
+
+[!include[sql_code.txt](sql_code.txt)]
+**Use Inline Formatting**: Apply Markdown formatting such as bold (**text**), italic (_text_), or monospace (`text`) to emphasize or highlight specific parts of the text.
